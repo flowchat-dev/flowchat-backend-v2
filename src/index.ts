@@ -1,5 +1,7 @@
-import { config } from 'dotenv';
+import getEnv from '@/utils/getEnv';
 import app from './app';
 
-config();
-app.listen();
+const port = +getEnv('PORT', '5500');
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
