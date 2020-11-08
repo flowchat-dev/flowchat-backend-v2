@@ -1,0 +1,24 @@
+{
+  "name": "flowchat-backend-v2",
+  "version": "1.0.0",
+  "description": "FlowChat Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowchat-dev/flowchat-backend-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flowchat-dev/flowchat-backend-v2/issues"
+  },
+  "homepage": "https://github.com/flowchat-dev/flowchat-backend-v2#readme",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
