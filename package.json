@@ -18,7 +18,17 @@
   },
   "homepage": "https://github.com/flowchat-dev/flowchat-backend-v2#readme",
   "devDependencies": {
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.22.1",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "eslint-config-airbnb-base": "^14.2.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
   }
 }
