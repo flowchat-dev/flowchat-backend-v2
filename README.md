@@ -17,3 +17,4 @@ npm run dev
     - @storycraft/node-kakao (3.1.0-preview.0)
     - dotenv
     - express
+    - ws
