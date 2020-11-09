@@ -10,7 +10,10 @@ npm run dev
 
 # Tech Stack
 - Runtime : NodeJS (tested with v12.18.4)
-- Transpiler : typescript (tested with v4.0.5)
+- Transpiler : typescript
 - libraries :
-    - typescript (tested with v4.0.5)
-    - ts-node (tested with v9.0.0)
+    - typescript
+    - ts-node
+    - @storycraft/node-kakao (3.1.0-preview.0)
+    - dotenv
+    - express
